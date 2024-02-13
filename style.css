@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin-top: 80px;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 54%, 90%);
+
+}
+p {
+    font-size: 16px;
+}
+
+.main {
+    background-color: white;
+    height: 1200px;
+    width: 550px;
+    padding: 40px;
+
+}
+.image-container img {
+    height: 100%;
+    width: 100%;
+}
