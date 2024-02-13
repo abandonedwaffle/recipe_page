@@ -15,6 +15,12 @@ body {
 p {
     font-size: 16px;
 }
+table {
+    width: 250px;
+    text-align: left;
+    
+   
+}
 th {
     column-gap: 221px;
 }
@@ -29,4 +35,9 @@ th {
 .image-container img {
     height: 100%;
     width: 100%;
+}
+.chart-container {
+    display: flex;
+    text-align: left;
+    gap: 80px;
 }
