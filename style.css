@@ -15,6 +15,9 @@ body {
 p {
     font-size: 16px;
 }
+th {
+    column-gap: 221px;
+}
 
 .main {
     background-color: white;
