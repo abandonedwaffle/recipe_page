@@ -28,12 +28,16 @@ p {
     color: hsl(30, 10%, 34%);
 }
 img {
-    border-radius: 80px;
+    border-radius: 50px;
+    width: 100%;
+    padding: 35px;
+
 }
 h1 {
     font-family: "Young Serif", serif;
     font-weight: 400;
     font-style: normal;
+    margin-top: 0;
 }
 table {
     width: 100%;
@@ -62,19 +66,15 @@ li::marker {
     background-color: white;
     height: auto;
     width: 750px;
-    border-radius: 15px;
+    border-radius: 20px;
     margin-top: 80px;
     margin-bottom: 80px;
 
 }
 .arcCont {
-    padding: 40px;
+    padding: 0px 40px 40px 40px;
 }
-.image-container img {
-    height: 100%;
-    width: 100%;
-    padding: 40px;
-}
+
 .prepare-container {
     background-color: hsl(330, 100%, 98%);
     font-family: "Outfit", sans-serif;
@@ -153,11 +153,10 @@ li::marker {
     }
     img {
         border-radius: 0;
+        padding: 0;
         
     }
-    .image-container img {
-        padding: 0px;
-    }
+  
     .main {
         border-radius: 0;
     }
