@@ -28,7 +28,7 @@ p {
     color: hsl(30, 10%, 34%);
 }
 img {
-    border-radius: 15px;
+    border-radius: 80px;
 }
 h1 {
     font-family: "Young Serif", serif;
@@ -60,17 +60,20 @@ li::marker {
 
 .main {
     background-color: white;
-    height: 1530px;
+    height: auto;
     width: 750px;
-    padding: 40px;
     border-radius: 15px;
     margin-top: 80px;
     margin-bottom: 80px;
 
 }
+.arcCont {
+    padding: 40px;
+}
 .image-container img {
     height: 100%;
     width: 100%;
+    padding: 40px;
 }
 .prepare-container {
     background-color: hsl(330, 100%, 98%);
@@ -141,8 +144,21 @@ li::marker {
 
 @media all and (max-width: 800px) {
     .main {
-        padding: 10px;
+        /* padding: 10px; */
         width: 375px;
         height: auto;
+    }
+    .arcCont {
+        padding: 15px;
+    }
+    img {
+        border-radius: 0;
+        
+    }
+    .image-container img {
+        padding: 0px;
+    }
+    .main {
+        border-radius: 0;
     }
 }
