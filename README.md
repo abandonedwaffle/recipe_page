@@ -27,7 +27,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-recipe-page-using-flexbox-nP5gCUn-Le]
 - Live Site URL: [https://abandonedwaffle.github.io/recipe_page/]
 
 ## My process
@@ -72,7 +72,6 @@ Learned a lot about structuring content using Flex-Conatainer. I think I am gett
 ```css
 @media all and (max-width: 800px) {
     .main {
-        /* padding: 10px; */
         width: 375px;
         height: auto;
     }

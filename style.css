@@ -144,7 +144,6 @@ li::marker {
 
 @media all and (max-width: 800px) {
     .main {
-        /* padding: 10px; */
         width: 375px;
         height: auto;
     }
