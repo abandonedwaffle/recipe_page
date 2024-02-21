@@ -28,7 +28,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://abandonedwaffle.github.io/recipe_page/)
+- Live Site URL: [https://abandonedwaffle.github.io/recipe_page/]
 
 ## My process
 
@@ -43,7 +43,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 Learned a lot about structuring content using Flex-Conatainer. I think I am getting the hang of FlexBox now. NGL it was troublesome at first as I was having trouble grasping some easy concept. This project helped me understand that. 
 
-To see how you can add code snippets, see below:
 
 ```html
 <div class="nutrition-container">
